@@ -1,0 +1,20 @@
+[
+  {
+    "base_code": "BRL",
+    "target_code": "USD",
+    "conversion_rate": 0.1962,
+    "conversion_result": 98.1
+  },
+  {
+    "base_code": "USD",
+    "target_code": "ARS",
+    "conversion_rate": 864.75,
+    "conversion_result": 345900.0
+  },
+  {
+    "base_code": "USD",
+    "target_code": "MXN",
+    "conversion_rate": 16.6478,
+    "conversion_result": 4994.34
+  }
+]
