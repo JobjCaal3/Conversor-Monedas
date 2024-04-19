@@ -61,7 +61,7 @@ public class PeticionesApi {
         }
     }
 
-    public void imprecion(){
+    public void imprecionCodigoSoportado(){
         JsonObject datos = CodigosSoportados();
         int columnas=0;
         for (JsonElement codigo : datos.get("supported_codes").getAsJsonArray()) {
