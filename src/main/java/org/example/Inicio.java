@@ -11,8 +11,7 @@ public class Inicio {
         PeticionesApi peticionesApi = new PeticionesApi();
         ArchivoJson archivoJson = new ArchivoJson();
         List<DatosMoneda> historial = new ArrayList<>();
-        String cantidad;
-        String codigoBase, codigoConvertir;
+        String codigoBase, codigoConvertir,cantidad;
         int opcion = 0;
 
         do {
@@ -42,7 +41,6 @@ public class Inicio {
                 cantidad = lectura.next();
                 if(cantidad.matches("\\d+(\\.\\d+)?")) {
                     DatosMoneda datosMoneda = peticionesApi.conversionMoneda(codigoBase + "/" + codigoConvertir + "/" + cantidad);
-
                     historial.add(datosMoneda);
                     System.out.println(datosMoneda);
                 }else{
